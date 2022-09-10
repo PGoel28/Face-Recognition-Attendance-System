@@ -26,7 +26,7 @@ def findEncodings(images):
 print (findEncodings(images))
 
 def attendance(name):
-    with open('ATTENDaNCE.csv','r+') as f:
+    with open('Attendance.csv','r+') as f:
         myDataList=f.readLines()
         nameList=[]
         for line in myDataList:
